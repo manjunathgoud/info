@@ -151,3 +151,16 @@ font-size: 50px;
 }
 
 
+@media (max-width: 700px) {
+    @media (max-width: 1028px) {
+
+        #title{
+            text-align: center;
+        }
+        .title-image {
+        position: static;
+        transform: rotate(0);
+        }
+    }
+   
+}
