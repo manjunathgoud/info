@@ -1,6 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     color: #405140;
     margin: 0;
+    position: absolute;
     text-align: center;
     font-family: 'Merriweather', serif;
     background-color: rgb(245, 253, 252);
@@ -30,7 +35,7 @@ h3{
 .topcontainer{
     background-color: #d7fffd;
     position: relative;
-  padding-top: 100px;
+    padding-top: 100px; 
     
 }
 .middle-container{
@@ -93,7 +98,7 @@ margin: 100px auto;
     width: 40%;
     margin: 40px auto 60px
 }
-.btn{
+/* .btn{
     background-color: teal;
     padding: 10px;
     font-size: 20px;
@@ -105,7 +110,7 @@ margin: 100px auto;
 .btn :active, .btn:hover{
     background-color: solid , #66BFB;
     border-radius: 10%;
-}
+} */
 a{
     color: teal;
     margin: 10px 20px;
@@ -125,17 +130,24 @@ a:hover{
 
 .logo{
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 25px;
+    left: 20px;
     border-radius: 80%;
+    height: 40px;
 }
 .cre{
     position: absolute;
-    bottom: 650px;
-    left: 35px;
-    font-size: 45px;
+left: 45px;
+top: 5px;
+
+font-size: 50px;
+    font-family: 'Sacramento', cursive;
+    
     
 }
-.cre :hover{
-    color: rgb(23, 141, 141) ;
+.cre:hover{
+    color:  #1fb9af ;
+    text-decoration: none;
 }
+
+
